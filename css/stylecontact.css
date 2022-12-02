@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+}
+
+@font-face {
+    font-family: "NeueMachinaLi";
+    src: url("../type/NeueMachina-Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "NeueMachinaReg";
+    src: url("../type/NeueMachina-Regular.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../type/PlayfairDisplay-MediumItalic.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NeueHaasMedium";
+    src: url("../type/NeueHaasDisplayMediu.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "NeueHaasRoman";
+    src: url("../type/NeueHaasDisplayRoman.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NeueHaasRomanItalic";
+    src: url("../type/NeueHaasDisplayRomanItalic.ttf");
+    font-weight: 500;
+}
+
+body {
+    background: radial-gradient(190.83% 81.69% at 50% 131.69%, #446172 0%, #7C8488 44.9%, #ECEBEC 100%);
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+.contacto {
+    margin-top: 120px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 89px;
+    width: 720px;
+    height: 532px;
+}
+
+.txtContacto {
+    font-family: NeueHaasMedium;
+    font-size: 96px;
+    line-height: 115px;
+}
+
+.txtFree {
+    font-family: NeueHaasMedium;
+    font-size: 24px;
+    line-height: 29px;
+    width: 407px;
+}
+
+.txtMail {
+    font-family: NeueMachinaLi;
+    font-size: 48px;
+    line-height: 46px;
+}
+
+.txtPhone {
+    font-family: NeueMachinaLi;
+    font-size: 48px;
+    line-height: 46px;
+}
+
+.enlaces {
+    font-family: NeueHaasMedium;
+    font-size: 40px;
+    line-height: 48px;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 132px;
+}
+
+.backTop {
+    font-family: NeueHaasMedium;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+}
+
+#backTopsvg {
+    transform: rotate(90deg);
+    width: 24px;
+    height: 24px;
+}
+
+.linkBack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 189px;
+    margin-top: 27vh;
+}

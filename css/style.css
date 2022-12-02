@@ -1,0 +1,326 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "NeueMachinaLi";
+    src: url("../type/NeueMachina-Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "NeueMachinaReg";
+    src: url("../type/NeueMachina-Regular.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../type/PlayfairDisplay-MediumItalic.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "NeueHaasMedium";
+    src: url("../type/NeueHaasDisplayMediu.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "NeueHaasRoman";
+    src: url("../type/NeueHaasDisplayRoman.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "NeueHaasRomanItalic";
+    src: url("../type/NeueHaasDisplayRomanItalic.ttf");
+    font-weight: 500;
+}
+
+body {
+    background-color: #ECEBEC;
+    width: 100%;
+}
+
+
+#conjuntoTextos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30vh;
+    padding: 7vh 0;
+
+}
+
+.hey {
+    font-family: NeueHaasRomanItalic;
+}
+
+.textoSuperior {
+    font-family: NeueHaasRoman;
+    font-size: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 448px;
+
+}
+
+.nombre {
+    font-family: PlayfairDisplay;
+    font-size: 128px;
+    line-height: 171px;
+}
+
+.apellido {
+    font-family: NeueHaasMedium;
+    font-size: 128px;
+    line-height: 190px;
+}
+
+.localizacion {
+    font-family: NeueHaasMedium;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.año {
+    font-family: NeueHaasMedium;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.nombreCompleto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.showMore {
+    font-family: NeueHaasMedium;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#pagina1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 7vh 0;
+
+}
+
+.tagPagina {
+    font-family: NeueHaasMedium;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 400px;
+}
+
+.numeroMenu {
+    font-family: NeueHaasMedium;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.textoMenu {
+    font-family: NeueHaasRoman;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.descripciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 576px;
+}
+
+.textoIzq {
+    font-family: "NeueHaasRoman";
+    font-size: 24px;
+    line-height: 29px;
+    width: 259px;
+}
+
+.textoDer {
+    font-family: "NeueHaasRoman";
+    font-size: 24px;
+    line-height: 29px;
+    width: 259px;
+}
+
+.marcaInferior {
+    font-family: "NeueHaasRoman";
+    font-size: 14px;
+    line-height: 17px;
+}
+
+a {
+    color: black;
+}
+
+
+
+.backTo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.textBack{
+    font-family: "NeueMachinaReg";
+    font-size: 16px;
+    line-height: 15px;
+    
+}
+
+.textoProyecto {
+    font-family: "NeueHaasMedium";
+    font-size: 96px;
+    line-height: 115px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.contenedorProyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    margin-top: 290px;
+    margin-bottom: 392px;
+}
+
+.contenedorSuperior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+}
+
+
+
+
+.textoProyecto1 {
+    font-family: "NeueMachinaReg";
+    font-size: 20px;
+    line-height: 19px;
+    width: 206px;
+    height: 2vw;
+    text-align: center;
+}
+
+.proyecto1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vw;
+    gap: 8px;
+    border: 3px solid #000000;
+
+
+}
+
+.textoProyecto2 {
+    font-family: "NeueMachinaReg";
+    font-size: 20px;
+    line-height: 19px;
+    width: 206px;
+    height: 2vw;
+    text-align: center;
+}
+
+.proyecto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vw;
+    gap: 8px;
+    border: 3px solid #000000;
+
+}
+
+.contenedorInferior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+}
+
+.textoProyecto3 {
+    font-family: "NeueMachinaReg";
+    font-size: 20px;
+    line-height: 19px;
+    width: 206px;
+    height: 2vw;
+    text-align: center;
+}
+
+.proyecto3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vw;
+    gap: 8px;
+    border: 3px solid #000000;
+
+}
+
+.textoProyecto4 {
+    font-family: "NeueMachinaReg";
+    font-size: 20px;
+    line-height: 19px;
+    width: 206px;
+    height: 2vw;
+    text-align: center;
+}
+
+.proyecto4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10vw;
+    gap: 8px;
+    border: 3px solid #000000;
+
+}
